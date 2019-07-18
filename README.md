@@ -10,7 +10,7 @@ Inspired by the amazing work done by other designers and developers, specificall
 ## Avatar Assets
 The Login Critter assets are broken down in to "Parts": body, head, eyes, ears, nose, muzzle, etc. Each "Part" can be individually animated. They are just vector PDFs because I wanted to focus on the animations and not worry about creating shapes programmatically.
 
-I used Affinity Designer for creating the mock up and assets. (I'm falling in love with this program. 😍) I've included the [raw asset](/assets/images/login-critter.afdesign) in this repo.
+I would have love to use Affinity Designer for creating the mock up and assets. (I'm falling in love with this program. 😍) But I've included the [raw asset](/assets/images/login-critter.afdesign) in this repo.
 
 ## Avatar States
 The Login Critter has a neutral, active, ecstatic, and shy state.
