@@ -1,7 +1,7 @@
 # Login Critter
 > An animated avatar that responds to text fields interactions 🐻
 
-![Demo gif](/assets/demo.gif)
+![Demo gif](/assets/images/demo.gif)
 
 Inspired by the amazing work done by other designers and developers, specifically Darin Senneff's [amazing work](https://dribbble.com/shots/4249163-Animated-login-form-avatar?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=web&utm_source=iOS%2BDev%2BWeekly%2BIssue%2B349). 🎩🌟 I wanted to try and create a similar animated "Login avatar" in Swift.
 
@@ -10,7 +10,7 @@ Inspired by the amazing work done by other designers and developers, specificall
 ## Avatar Assets
 The Login Critter assets are broken down in to "Parts": body, head, eyes, ears, nose, muzzle, etc. Each "Part" can be individually animated. They are just vector PDFs because I wanted to focus on the animations and not worry about creating shapes programmatically.
 
-I used Affinity Designer for creating the mock up and assets. (I'm falling in love with this program. 😍) I've included the [raw asset](/assets/login-critter.afdesign) in this repo.
+I used Affinity Designer for creating the mock up and assets. (I'm falling in love with this program. 😍) I've included the [raw asset](/assets/images/login-critter.afdesign) in this repo.
 
 ## Avatar States
 The Login Critter has a neutral, active, ecstatic, and shy state.
@@ -29,7 +29,7 @@ There is also a "saved" state. The "saved" state is the current active transform
 
 | Neutral                             | Active                            | Ecstatic                              | Shy                         | Peek                          |
 | :----------------------------------:|:---------------------------------:| :------------------------------------:| :--------------------------:| :----------------------------:|
-| ![Neutral png](/assets/neutral.png) | ![Active png](/assets/active.png) | ![Ecstatic png](/assets/ecstatic.png) | ![Shy png](/assets/shy.png) | ![Peek png](/assets/peek.png) |
+| ![Neutral png](/assets/images/neutral.png) | ![Active png](/assets/images/active.png) | ![Ecstatic png](/assets/images/ecstatic.png) | ![Shy png](/assets/images/shy.png) | ![Peek png](/assets/images/peek.png) |
 
 The "Parts" transformations for each state begin with it's `identity`, the neutral state, then scale, rotate and/or translate is applied.
 
